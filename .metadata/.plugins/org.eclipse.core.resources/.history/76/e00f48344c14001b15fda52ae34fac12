@@ -1,0 +1,24 @@
+//Author: Theja N
+//Date: 22-10-2020
+//Desc: prime numbers upto a particular integer 
+
+import java.util.*;
+public class Prime {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter n:");
+		int n,temp=0;
+		sc.nextInt();
+		for(int i=1;i<=n;i++) {
+			if(n%i!=0) {
+				temp++;			
+			}
+			if(temp=0) {
+				System.out.println(i);
+			}
+		}
+			
+	}
+
+}
